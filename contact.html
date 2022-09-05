@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhaan Malik - Contact Me</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+</head>
+<style>
+    .main {
+        background: url(image/contact.avif) no-repeat center/cover;
+    }
+
+    .container {
+        background-color: #ffffffed;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- Navigation section -->
+            <header>
+                <nav>
+                    <div class="navbar">
+                        <div class="logo">
+                            <a href="index.html">Port<span>Folio</span></a>
+                        </div>
+                        <div class="menu-btn">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="service.html">Services</a>
+                            <a href="work.html">PortFolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                        <div class="menu-open" id="open-menu">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </div>
+                        <div class="menu-cancel" id="close-menu">
+                            <i class="fa-regular fa-circle-xmark"></i>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Navigation section end-->
+
+
+            <!-- Contact section-->
+            <div class="contact-section">
+                <h1 class="title" data-aos="zoom-out" data-aos-duration="1000">Contact Us</h1>
+                <div class="line" data-aos="zoom-out" data-aos-duration="1000"></div>
+                <div class="ctnt">
+                    <div class="form" id="Contact" data-aos="fade-up" data-aos-duration="1500">
+                        <h3 class="sub">Send us a message</h3>
+                        <form action="">
+                            <div class="icn">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="icn">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="icn">
+                                <i class="fa-solid fa-message"></i>
+                                <input type="text" id="message" placeholder="Your Message" required>
+                            </div>
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
+                    <div class="myctnt" data-aos="fade-up" data-aos-duration="1500">
+                        <h2 class="sub">Contact Information</h2>
+                        <div class="details">
+                            <p><a href=""><i class="fa-solid fa-location-dot"></i> <b>Address:</b> Lucknow, UP, India
+                                    226022</a></p>
+                            <p><a href="mailto:thefarhan68@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> <b>Email:</b> thefarhan68@gmail.com</a>
+                            </p>
+                            <p><a href="tel:7380384270" target="_blank"><i class="fa-solid fa-phone"></i> <b>Phone:</b> +917380384270</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section end-->
+
+
+        <!-- Footer section -->
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <p>Connect Us :</p>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="ft-end">
+                    <p>Copyright 2022 | Designed by <b>Farhaan Malik</b> </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
