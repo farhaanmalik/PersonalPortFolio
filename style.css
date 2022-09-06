@@ -170,21 +170,22 @@ nav {
     margin: 3% auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 3%;
 }
 
 .srv-box {
+    width: 400px;
     border: 1px solid #fff;
     padding: 15px 20px;
     border-radius: 10px;
     margin: 30px 20px;
     text-align: center;
     color: #fff;
-    transition: all .4s;
+    transition: box .4s;
 }
 
-.srv-box:hover {
+.srv-box:hover{
     background-color: #fff;
     color: #000000;
 }
@@ -413,6 +414,8 @@ nav {
     position: relative;
     width: 40%;
     margin: 15px;
+    box-shadow: 0px 0px 2px #868686;
+    border-radius: 10px;
 }
 
 .work-box .image {
@@ -450,14 +453,13 @@ nav {
 
 .work-box .middle .text {
     background-color: #000000;
-    font-size: 16px;
-    padding: 16px 25px;
-    border-radius: 30px;
+    padding: 12px 20px;
+    border-radius: 10px;
 }
 
 .work-box .middle .text a {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -762,6 +764,12 @@ footer {
         box-shadow: 0px 8px 5px #c2c2c2;
     }
 
+    .service{
+        flex-direction: column;
+    }
+    .srv-box{
+        width: 500px;
+    }
     .srv-box .icon i {
         font-size: 50px;
     }
